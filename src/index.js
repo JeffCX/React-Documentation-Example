@@ -33,6 +33,8 @@ setInterval(Tick,1000)
 //Nineth 
 //import {SelectForm,ReservationForm} from "./MainConcepts/Forms"
 
+import App from "./MainConcepts/ThinkingInReact"
+
 //Adanaced React
 //First
 
@@ -51,7 +53,7 @@ setInterval(Tick,1000)
 //import App from "./AdvancedReact/UseFragments"
 
 //
-import App from "./AdvancedReact/UncontrolledComponent"
+//import App from "./AdvancedReact/UncontrolledComponent"
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
