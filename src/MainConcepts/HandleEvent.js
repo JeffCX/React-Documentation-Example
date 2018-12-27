@@ -1,7 +1,5 @@
 import React from "react"
 
-
-
 class Draggble extends React.Component{
 
     constructor(props){
@@ -19,15 +17,11 @@ class Draggble extends React.Component{
            this.setState({
                imageName:`${fileType}`
             })
-
-            alert(this.state.imageName)
-
         }else{
             this.setState({
                 imageName:""
             })
         }
-
     }
 
     render(){
@@ -46,7 +40,10 @@ class Draggble extends React.Component{
                 Drag a image here
                 </div>
 
-                {this.state.imageName===""?<div>No Image selected</div>:this.state.imageName}
+                {this.state.imageName===""?
+                    <div>No Image selected</div>
+                    :
+                    this.state.imageName}
               </div>
 
              
